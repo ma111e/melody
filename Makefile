@@ -44,7 +44,7 @@ run_local_stdout: build
 
 ## build : Build and set network capabilities to start Melody without elevated privileges
 build:
-	go build -ldflags="-s -w" -o melody
+	go build -ldflags="-s -w" -o melody ./cmd/melody
 	sudo setcap cap_net_raw,cap_setpcap=ep ./melody
 
 ## cap : Set network capabilities to start Melody without elevated privileges
