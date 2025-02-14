@@ -4,17 +4,17 @@
   <p align="center">Monitor the Internet's background noise</p>
 </p>
 <p align="center">
-    <a href="https://goreportcard.com/badge/github.com/bonjourmalware/melody"><img src="https://goreportcard.com/badge/github.com/bonjourmalware/melody" alt="Go Report Card"/></a>
-    <a href="https://coveralls.io/github/bonjourmalware/melody"><img src="https://coveralls.io/repos/github/bonjourmalware/melody/badge.svg" alt="Coverage Status"/></a>
-    <a href="https://hub.docker.com/r/bonjourmalware/melody/builds"><img src="https://img.shields.io/docker/cloud/build/bonjourmalware/melody" alt="Docker build status"/></a>
-    <a href="https://hub.docker.com/r/bonjourmalware/melody/builds"><img src="https://img.shields.io/docker/image-size/bonjourmalware/melody?sort=date" alt="Docker image size"/></a>
+    <a href="https://goreportcard.com/badge/github.com/ma111e/melody"><img src="https://goreportcard.com/badge/github.com/ma111e/melody" alt="Go Report Card"/></a>
+    <a href="https://coveralls.io/github/ma111e/melody"><img src="https://coveralls.io/repos/github/ma111e/melody/badge.svg" alt="Coverage Status"/></a>
+    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/cloud/build/ma111e/melody" alt="Docker build status"/></a>
+    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/image-size/ma111e/melody?sort=date" alt="Docker image size"/></a>
 </p>
 
 <p align="center">
-       <a href="https://github.com/bonjourmalware/melody/releases/latest"><img src="https://img.shields.io/github/release/bonjourmalware/melody.svg" alt="Latest release"/></a>
-    <a href="https://bonjourmalware.github.io/melody/"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Documentation-informational" alt="Documentation"/></a>
-    <a href="https://bonjourmalware.github.io/melody/installation"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Installation-informational" alt="Installation"/></a>
-    <a href="https://bonjourmalware.github.io/melody/quickstart"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Quickstart-informational" alt="Quickstart"/></a>
+       <a href="https://github.com/ma111e/melody/releases/latest"><img src="https://img.shields.io/github/release/ma111e/melody.svg" alt="Latest release"/></a>
+    <a href="https://ma111e.github.io/melody/"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Documentation-informational" alt="Documentation"/></a>
+    <a href="https://ma111e.github.io/melody/installation"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Installation-informational" alt="Installation"/></a>
+    <a href="https://ma111e.github.io/melody/quickstart"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Quickstart-informational" alt="Quickstart"/></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="Go Report Card"/></a>
 </p>
 
@@ -78,16 +78,16 @@ There is a lot of rom for improvement though, so here are some features that I'd
 # Preview
 
 <p>
-<img src="https://raw.githubusercontent.com/bonjourmalware/melody/master/readme/melody_demo.gif" height="600" />
-<img src="https://raw.githubusercontent.com/bonjourmalware/melody/master/readme/melody_demo_dash.png" height="600" />
+<img src="https://raw.githubusercontent.com/ma111e/melody/master/readme/melody_demo.gif" height="600" />
+<img src="https://raw.githubusercontent.com/ma111e/melody/master/readme/melody_demo_dash.png" height="600" />
 </p>
 
 # Quickstart
-[Quickstart details.](https://bonjourmalware.github.io/melody/installation)
+[Quickstart details.](https://ma111e.github.io/melody/installation)
 
 ## TL;DR
 ### Release
-Get the latest release at `https://github.com/bonjourmalware/melody/releases`.
+Get the latest release at `https://github.com/ma111e/melody/releases`.
 
 ```bash
 make install               # Set default outfacing interface
@@ -115,7 +115,7 @@ tail -f /opt/melody/logs/melody.ndjson # | jq
 ### From source
 
 ```bash
-git clone https://github.com/bonjourmalware/melody /opt/melody
+git clone https://github.com/ma111e/melody /opt/melody
 cd /opt/melody
 make build
 ```
@@ -130,7 +130,7 @@ make enable_all_rules                # Enable the default rules
 mkdir -p /opt/melody/logs
 cd /opt/melody/
 
-docker pull bonjourmalware/melody:latest
+docker pull ma111e/melody:latest
 
 MELODY_CLI="" # Put your CLI options here. Example : export MELODY_CLI="-s -i 'lo' -F 'dst port 5555' -o 'server.http.port: 5555'"
 
@@ -142,14 +142,14 @@ docker run \
     --mount type=bind,source="$(pwd)/var",target=/app/var,readonly \
     --mount type=bind,source="$(pwd)/rules",target=/app/rules,readonly \
     --mount type=bind,source="$(pwd)/logs",target=/app/logs/ \
-    bonjourmalware/melody
+    ma111e/melody
 ```
 
 The logs should start to pile up in `/opt/melody/logs/melody.ndjson`.
 
 # Rules
 
-[Rule syntax details.](https://bonjourmalware.github.io/melody/installation)
+[Rule syntax details.](https://ma111e.github.io/melody/installation)
 
 ## Example
 
@@ -183,7 +183,7 @@ CVE-2020-14882 Oracle Weblogic Server RCE:
 
 # Logs
 
-[Logs content details.](https://bonjourmalware.github.io/melody/layers)
+[Logs content details.](https://ma111e.github.io/melody/layers)
 
 ## Example
 
