@@ -18,7 +18,6 @@ docker_build:
 ## docker_run : Run local Docker image
 docker_run:
 	@echo "This will only run the locally built image."
-	@echo "Swap 'melody' with bonjourmalware/melody if you want to run the latest release."
 	@echo "MELODY_CLI example : 'export MELODY_CLI=\"-s -i lo -F 'dst port 10080'\"'"
 	@-mkdir logs
 	docker run \
