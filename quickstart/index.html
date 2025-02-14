@@ -926,7 +926,7 @@
 
 <h3 id="tldr">TL;DR<a class="headerlink" href="#tldr" title="Permanent link">#</a></h3>
 <h4 id="release">Release<a class="headerlink" href="#release" title="Permanent link">#</a></h4>
-<p>Get the latest release at <code>https://github.com/bonjourmalware/melody/releases</code>.</p>
+<p>Get the latest release at <code>https://github.com/ma111e/melody/releases</code>.</p>
 <div class="highlight"><pre><span></span><code>make<span class="w"> </span>install<span class="w">            </span><span class="c1"># Set default outfacing interface</span>
 make<span class="w"> </span>cap<span class="w">                </span><span class="c1"># Set network capabilities to start Melody without elevated privileges</span>
 make<span class="w"> </span>certs<span class="w">              </span><span class="c1"># Make self signed certs for the HTTPS fileserver</span>
@@ -944,7 +944,7 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span>status<span class="
 <div class="highlight"><pre><span></span><code>tail<span class="w"> </span>-f<span class="w"> </span>/opt/melody/logs/melody.ndjson<span class="w"> </span><span class="c1"># | jq</span>
 </code></pre></div>
 <h4 id="from-source">From source<a class="headerlink" href="#from-source" title="Permanent link">#</a></h4>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/bonjourmalware/melody<span class="w"> </span>/opt/melody
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/ma111e/melody<span class="w"> </span>/opt/melody
 <span class="nb">cd</span><span class="w"> </span>/opt/melody
 make<span class="w"> </span>build
 </code></pre></div>
@@ -985,7 +985,7 @@ docker<span class="w"> </span>run<span class="w"> </span><span class="se">\</spa
 <p>You will most likely want to ban at least the address from which you access the server and the addresses used for monitoring (don't forget your hosting provider's).</p>
 </div>
 <p>Clone the repo to get the default rules and configuration files :</p>
-<div class="highlight"><pre><span></span><code>git clone https://github.com/bonjourmalware/melody
+<div class="highlight"><pre><span></span><code>git clone https://github.com/ma111e/melody
 </code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -1013,7 +1013,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 sudo setcap cap_net_raw,cap_setpcap=ep ./melody
 </code></pre></div>
 <h3 id="grab-a-release">Grab a release<a class="headerlink" href="#grab-a-release" title="Permanent link">#</a></h3>
-<p>You can grab the latest release by visiting <a href="https://github.com/bonjourmalware/melody/releases/latest">https://github.com/bonjourmalware/melody/releases/latest</a>.</p>
+<p>You can grab the latest release by visiting <a href="https://github.com/ma111e/melody/releases/latest">https://github.com/ma111e/melody/releases/latest</a>.</p>
 <h3 id="docker_1">Docker<a class="headerlink" href="#docker_1" title="Permanent link">#</a></h3>
 <p>You can also use Docker and pull the image from Docker Hub :</p>
 <div class="highlight"><pre><span></span><code>docker pull bonjourmalware/melody:latest
