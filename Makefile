@@ -51,8 +51,8 @@ build:
 cap:
 	sudo setcap cap_net_raw,cap_setpcap=ep ./melody
 
-## install : Patch listen.interface config key with the current default interface
-install:
+## setup : Patch listen.interface config key with the current default interface
+setup:
 	@echo "Ensure net-tools is installed in order to use the 'route' command"
 	sudo apt install net-tools
 	@echo "> Setting listening interface to \"$(shell route | grep '^default' | awk '{print $$8; exit}')\""
