@@ -1,3 +1,4 @@
+version: 2
 before:
   hooks:
     - go mod download
@@ -34,14 +35,10 @@ archives:
       - Dockerfile
       - Makefile
     wrap_in_directory: true
-    replacements:
-      linux: Linux
-      windows: Windows
-      amd64: x86_64
 checksum:
   name_template: 'checksums.txt'
 snapshot:
-  name_template: "{{ .Tag }}-next"
+  version_template: "{{ .Tag }}-next"
 changelog:
   sort: asc
   filters:
