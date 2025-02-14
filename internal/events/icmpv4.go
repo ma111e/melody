@@ -3,10 +3,10 @@ package events
 import (
 	"time"
 
-	"github.com/bonjourmalware/melody/internal/events/helpers"
-	"github.com/bonjourmalware/melody/internal/logdata"
+	"github.com/ma111e/melody/internal/events/helpers"
+	"github.com/ma111e/melody/internal/logdata"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

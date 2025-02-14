@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/logging"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
 	"gopkg.in/yaml.v3"
 )

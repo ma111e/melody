@@ -8,14 +8,14 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/bonjourmalware/melody/internal/engine"
-	"github.com/bonjourmalware/melody/internal/rules"
-	"github.com/bonjourmalware/melody/internal/sensor"
+	"github.com/ma111e/melody/internal/engine"
+	"github.com/ma111e/melody/internal/rules"
+	"github.com/ma111e/melody/internal/sensor"
 
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/logging"
 
-	"github.com/bonjourmalware/melody/internal/config"
 	"github.com/google/shlex"
+	"github.com/ma111e/melody/internal/config"
 	"github.com/pborman/getopt/v2"
 )
 

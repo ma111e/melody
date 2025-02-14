@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/logging"
 
-	"github.com/bonjourmalware/melody/internal/events"
+	"github.com/ma111e/melody/internal/events"
 )
 
 func (nfs neuteredFileSystem) Open(path string) (http.File, error) {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bonjourmalware/melody/internal/fileutils"
-	"github.com/bonjourmalware/melody/internal/meloctl/prompt"
+	"github.com/ma111e/melody/internal/fileutils"
+	"github.com/ma111e/melody/internal/meloctl/prompt"
 	"io/ioutil"
 	"os"
 

@@ -1,11 +1,11 @@
 package engine
 
 import (
-	"github.com/bonjourmalware/melody/internal/config"
-	"github.com/bonjourmalware/melody/internal/events"
-	"github.com/bonjourmalware/melody/internal/logging"
-	"github.com/bonjourmalware/melody/internal/router"
-	"github.com/bonjourmalware/melody/internal/rules"
+	"github.com/ma111e/melody/internal/config"
+	"github.com/ma111e/melody/internal/events"
+	"github.com/ma111e/melody/internal/logging"
+	"github.com/ma111e/melody/internal/router"
+	"github.com/ma111e/melody/internal/rules"
 )
 
 var (

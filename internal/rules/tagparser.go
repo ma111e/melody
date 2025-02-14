@@ -3,7 +3,7 @@ package rules
 import (
 	"reflect"
 
-	"github.com/bonjourmalware/melody/internal/tagparser"
+	"github.com/ma111e/melody/internal/tagparser"
 )
 
 // LoadValidMatchKeysMap returns a map of the json keys for each of the protos structs

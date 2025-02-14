@@ -4,12 +4,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bonjourmalware/melody/internal/events/helpers"
-	"github.com/bonjourmalware/melody/internal/logdata"
+	"github.com/ma111e/melody/internal/events/helpers"
+	"github.com/ma111e/melody/internal/logdata"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
-	"github.com/bonjourmalware/melody/internal/sessions"
+	"github.com/ma111e/melody/internal/sessions"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

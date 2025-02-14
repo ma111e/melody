@@ -8,7 +8,6 @@ import (
 	"os"
 	"regexp"
 	"strings"
-	//"github.com/bonjourmalware/melody/internal/logger"
 )
 
 // RawConditions describes the format of a condition field in a rule file

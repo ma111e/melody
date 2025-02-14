@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
 	"github.com/spf13/cobra"
 )

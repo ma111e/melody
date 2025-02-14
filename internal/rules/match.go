@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/bonjourmalware/melody/internal/config"
-	"github.com/bonjourmalware/melody/internal/events"
+	"github.com/ma111e/melody/internal/config"
+	"github.com/ma111e/melody/internal/events"
 )
 
 // Match is the entry point of the Rule matching proc

@@ -1,8 +1,8 @@
 package logdata
 
 import (
-	"github.com/bonjourmalware/melody/internal/events/helpers"
 	"github.com/google/gopacket/layers"
+	"github.com/ma111e/melody/internal/events/helpers"
 )
 
 // IPv6LogData is the struct describing the logged data for IPv6 header

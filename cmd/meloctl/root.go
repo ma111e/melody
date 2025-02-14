@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bonjourmalware/melody/internal/fileutils"
+	"github.com/ma111e/melody/internal/fileutils"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 	"gopkg.in/yaml.v3"
 
 	"github.com/spf13/cobra"

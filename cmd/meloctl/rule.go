@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bonjourmalware/melody/internal/meloctl/prompt"
+	"github.com/ma111e/melody/internal/meloctl/prompt"
 
-	"github.com/bonjourmalware/melody/internal/rules"
 	"github.com/google/uuid"
 	"github.com/k0kubun/pp"
+	"github.com/ma111e/melody/internal/rules"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )

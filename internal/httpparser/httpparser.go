@@ -3,7 +3,7 @@ package httpparser
 import (
 	"bytes"
 	"fmt"
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 	"io"
 	"io/ioutil"
 	"net/http"

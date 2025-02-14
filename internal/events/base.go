@@ -1,7 +1,7 @@
 package events
 
 import (
-	"github.com/bonjourmalware/melody/internal/loggable"
+	"github.com/ma111e/melody/internal/loggable"
 	"time"
 )
 

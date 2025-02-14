@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/bonjourmalware/melody/internal/config"
-	"github.com/bonjourmalware/melody/internal/tagparser"
+	"github.com/ma111e/melody/internal/config"
+	"github.com/ma111e/melody/internal/tagparser"
 	"reflect"
 
 	"github.com/spf13/cobra"

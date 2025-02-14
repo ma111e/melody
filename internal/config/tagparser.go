@@ -3,7 +3,7 @@ package config
 import (
 	"reflect"
 
-	"github.com/bonjourmalware/melody/internal/tagparser"
+	"github.com/ma111e/melody/internal/tagparser"
 )
 
 // LoadYAMLTagsOf loads the yaml tags of a struct

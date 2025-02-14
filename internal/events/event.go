@@ -1,8 +1,8 @@
 package events
 
 import (
-	"github.com/bonjourmalware/melody/internal/loggable"
 	"github.com/google/gopacket/layers"
+	"github.com/ma111e/melody/internal/loggable"
 )
 
 // Event is the interface implementing common methods to generated events

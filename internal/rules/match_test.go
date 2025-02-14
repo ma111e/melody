@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/bonjourmalware/melody/internal/config"
+	"github.com/ma111e/melody/internal/config"
 
-	"github.com/bonjourmalware/melody/internal/events"
 	"github.com/google/gopacket/layers"
+	"github.com/ma111e/melody/internal/events"
 )
 
 func init() {

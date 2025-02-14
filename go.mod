@@ -1,4 +1,4 @@
-module github.com/bonjourmalware/melody
+module github.com/ma111e/melody
 
 go 1.13
 

@@ -3,7 +3,7 @@ package logdata
 import (
 	"fmt"
 
-	"github.com/bonjourmalware/melody/internal/loggable"
+	"github.com/ma111e/melody/internal/loggable"
 )
 
 // IPLogData is the interface used by packet structs supporting an IP layer
@@ -37,7 +37,7 @@ func (l *BaseLogData) Init(ev loggable.Loggable) {
 	}
 }
 
-//makeInlineArray converts a Tags map to an array of its values with the keys and values merged with a '.'
+// makeInlineArray converts a Tags map to an array of its values with the keys and values merged with a '.'
 func makeInlineArray(tags map[string][]string) []string {
 	var inlineTags []string
 

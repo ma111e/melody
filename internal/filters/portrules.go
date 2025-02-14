@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/logging"
 )
 
 // PortRanges abstracts an array of PortRange

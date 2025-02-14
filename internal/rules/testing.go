@@ -2,10 +2,10 @@ package rules
 
 import (
 	"fmt"
-	"github.com/bonjourmalware/melody/internal/events"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
+	"github.com/ma111e/melody/internal/events"
 	"os"
 )
 

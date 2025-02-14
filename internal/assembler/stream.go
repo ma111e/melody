@@ -2,11 +2,11 @@ package assembler
 
 import (
 	"bufio"
-	"github.com/bonjourmalware/melody/internal/engine"
-	"github.com/bonjourmalware/melody/internal/events"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/tcpassembly"
 	"github.com/google/gopacket/tcpassembly/tcpreader"
+	"github.com/ma111e/melody/internal/engine"
+	"github.com/ma111e/melody/internal/events"
 	"io"
 	"net/http"
 )

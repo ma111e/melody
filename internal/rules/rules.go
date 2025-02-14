@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/bonjourmalware/melody/internal/filters"
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/filters"
+	"github.com/ma111e/melody/internal/logging"
 )
 
 // Rules abstracts an array of Rule

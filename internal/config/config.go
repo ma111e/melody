@@ -2,14 +2,14 @@ package config
 
 import (
 	"fmt"
-	"github.com/bonjourmalware/melody/internal/fileutils"
+	"github.com/ma111e/melody/internal/fileutils"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 
-	"github.com/bonjourmalware/melody/internal/clihelper"
+	"github.com/ma111e/melody/internal/clihelper"
 
 	"github.com/c2h5oh/datasize"
 

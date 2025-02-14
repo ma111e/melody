@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bonjourmalware/melody/internal/logging"
+	"github.com/ma111e/melody/internal/logging"
 )
 
 // IPRanges abstracts an array of IPRange
