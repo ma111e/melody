@@ -55,8 +55,8 @@ cap:
 install:
 	@echo "Ensure net-tools is installed in order to use the 'route' command"
 	sudo apt install net-tools
-	@echo "> Setting listening interface to \"$(shell route | grep '^default' | grep -o '[^ ]*$$')\""
-	sed -i "s/# listen.interface: \"lo\"/listen.interface: \"$(shell route | grep '^default' | grep -o '[^ ]*$$')\"/g" ./config.yml
+	@echo "> Setting listening interface to \"$(shell route | grep '^default' | awk '{print $$8; exit}')\""
+	sed -i "s/# listen.interface: \"lo\"/listen.interface: \"$(shell route | grep '^default' | awk '{print $$8; exit}')\"/g" ./config.yml
 	@echo
 	@echo -n "Current listening interface :\n\t"
 	@grep listen.interface ./config.yml
