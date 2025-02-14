@@ -1,7 +1,7 @@
 To install Melody, clone the repo or grab the latest :
 
 ```bash
-git clone https://github.com/bonjourmalware/melody /opt/melody
+git clone https://github.com/ma111e/melody /opt/melody
 
 cd /opt/melody
 

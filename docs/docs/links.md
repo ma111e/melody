@@ -1,2 +1,1 @@
-+ The project is maintained in the [Github repository](https://github.com/bonjourmalware/melody)
-+ Follow [@bonjourmalware](https://twitter/bonjourmalware) on Twitter for updates
++ The project is now archived in the [Github repository](https://github.com/ma111e/melody)

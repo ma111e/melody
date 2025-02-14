@@ -1,6 +1,6 @@
 ### TL;DR
 #### Release
-Get the latest release at `https://github.com/bonjourmalware/melody/releases`.
+Get the latest release at `https://github.com/ma111e/melody/releases`.
 
 ```bash
 make install            # Set default outfacing interface
@@ -30,7 +30,7 @@ tail -f /opt/melody/logs/melody.ndjson # | jq
 
 ```bash
 
-git clone https://github.com/bonjourmalware/melody /opt/melody
+git clone https://github.com/ma111e/melody /opt/melody
 cd /opt/melody
 make build
 ```
@@ -78,7 +78,7 @@ You'll need the following info :
 Clone the repo to get the default rules and configuration files :
 
 ```git
-git clone https://github.com/bonjourmalware/melody
+git clone https://github.com/ma111e/melody
 ```
 
 !!! Tip
@@ -114,7 +114,7 @@ sudo setcap cap_net_raw,cap_setpcap=ep ./melody
 
 ### Grab a release
 
-You can grab the latest release by visiting [https://github.com/bonjourmalware/melody/releases/latest](https://github.com/bonjourmalware/melody/releases/latest).
+You can grab the latest release by visiting [https://github.com/ma111e/melody/releases/latest](https://github.com/ma111e/melody/releases/latest).
 
 ### Docker
 You can also use Docker and pull the image from Docker Hub :
