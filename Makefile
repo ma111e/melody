@@ -51,7 +51,7 @@ build:
 cap:
 	sudo setcap cap_net_raw,cap_setpcap=ep ./melody
 
-## setup : Patch listen.interface config key with the current default interface
+## setup : Init meloctl, install net-tools dependency and patch listen.interface config key with the current default interface
 setup:
 	@echo "Ensure net-tools is installed in order to use the 'route' command"
 	sudo apt install net-tools
