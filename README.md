@@ -6,8 +6,8 @@
 <p align="center">
     <a href="https://goreportcard.com/badge/github.com/ma111e/melody"><img src="https://goreportcard.com/badge/github.com/ma111e/melody" alt="Go Report Card"/></a>
     <a href="https://coveralls.io/github/ma111e/melody"><img src="https://coveralls.io/repos/github/ma111e/melody/badge.svg" alt="Coverage Status"/></a>
-    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/cloud/build/ma111e/melody" alt="Docker build status"/></a>
-    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/image-size/ma111e/melody?sort=date" alt="Docker image size"/></a>
+    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/cloud/build/bonjourmalware/melody" alt="Docker build status"/></a>
+    <a href="https://hub.docker.com/r/ma111e/melody/builds"><img src="https://img.shields.io/docker/image-size/bonjourmalware/melody?sort=date" alt="Docker image size"/></a>
 </p>
 
 <p align="center">
